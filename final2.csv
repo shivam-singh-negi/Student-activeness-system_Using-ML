@@ -1,0 +1,54 @@
+,Question,Answer,Option1,Option2,Option3,Option4
+0,1. What is the full form of DBMS?,b,a) Data of Binary Management System,b) Database Management System,c) Database Management Service,d) Data Backup Management System
+1,2. What is a database?,c,"a) Organized collection of information that cannot be accessed, updated, and managed",b) Collection of data or information without organizing,"c) Organized collection of data or information that can be accessed, updated, and managed",d) Organized collection of data that cannot be updated
+2,3. What is DBMS?,d,a) DBMS is a collection of queries,b) DBMS is a high-level language,c) DBMS is a programming language,"d) DBMS stores, modifies and retrieves data"
+3,4. Who created the first DBMS?,b,a) Edgar Frank Codd,b) Charles Bachman,c) Charles Babbage,d) Sharon B. Codd
+4,5. Which type of data can be stored in the database?,d,a) Image oriented data,"b) Text, files containing data",c) Data in the form of audio or video,d) All of the above
+5,6. In which of the following formats data is stored in the database management system?,c,a) Image,b) Text,c) Table,d) Graph
+6,7. Which of the following is not a type of database?,d,a) Hierarchical,b) Network,c) Distributed,d) Decentralized
+7,8. Which of the following is not an example of DBMS?,d,a) MySQL,b) Microsoft Acess,c) IBM DB2,d) Google
+8,9. Which of the following is a feature of DBMS?,c,a) Minimum Duplication and Redundancy of Data,b) High Level of Security,c) Single-user Access only,d) Support ACID Property
+9,10. Which of the following is a feature of the database?,b,a) No-backup for the data stored,b) User interface provided,c) Lack of Authentication,d) Store data in multiple locations
+10,11. Which of the following is not a function of the database?,d,a) Managing stored data,b) Manipulating data,c) Security for stored data,d) Analysing code
+11,12. Which of the following is a function of the DBMS?,d,a) Storing data,b) Providing multi-users access control,c) Data Integrity,d) All of the above
+12,13. Which of the following is a component of the DBMS?,d,a) Data,b) Data Languages,c) Data Manager,d) All of the above
+13,"14. Which of the following is known as a set of entities of the same type that share same properties, or attributes?", c,a) Relation set,b) Tuples,c) Entity set,d) Entity Relation model
+14,15. What is information about data called?,c,a) Hyper data,b) Tera data,c) Meta data,d) Relations
+15,16. What does an RDBMS consist of?,c,a) Collection of Records,b) Collection of Keys,c) Collection of Tables,d) Collection of Fields
+16,"17. The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____________________ integrity constraint.", a,a) Referential,b) Primary,c) Referencing,d) Specific
+17,18. _____________ is a hardware component that is most important for the operation of a database management system.,b,a) Microphone,"b) High speed, large capacity disk to store data",c) High-resolution video display,d) Printer
+18,19. The DBMS acts as an interface between ________________ and ________________ of an enterprise-class system.,c,a) Data and the DBMS,b) Application and SQL,c) Database application and the database,d) The user and the software
+19,"20. The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",d,a) TCL (Transaction Control Language),b) DCL (Data Control Language),c) DDL (Data Definition Langauge),d) DML (Data Manipulation Langauge)
+20,21. ______________ is a set of one or more attributes taken collectively to uniquely identify a record.,c,a) Primary Key,b) Foreign key,c) Super key,d) Candidate key
+21,22. Which command is used to remove a relation from an SQL?,a,a) Drop table,b) Delete,c) Purge,d) Remove
+22,23. Which of the following set should be associated with weak entity set for weak entity to be meaningful?, d,a) Neighbour set,b) Strong entity set,c) Owner set,d) Identifying set
+23,24. Which of the following command is correct to delete the values in the relation teaches?, a,a) Delete from teaches;,b) Delete from teaches where Id =’Null’;,c) Remove table teaches;,d) Drop table teaches;
+24,25. Procedural language among the following is __________, c,a) Domain relational calculus,b) Tuple relational calculus,c) Relational algebra,d) Query language
+25,26. _________________ operations do not preserve non-matched tuples.,b,a) Left outer join,b) Inner join,c) Natural join,d) Right outer join
+26,27. Which forms have a relation that contains information about a single entity?, a,a) 4NF,b) 2NF,c) 5NF,d) 3NF
+27,28. The top level of the hierarchy consists of ______ each of which can contain _____.,d,"a) Schemas, Catalogs","b) Schemas, Environment","c) Environment, Schemas","d) Catalogs, Schemas"
+28,29. _______ indicates the maximum number of entities that can be involved in a relationship., c,a) Greater Entity Count,b) Minimum cardinality,c) Maximum cardinality,d) ERD
+29,30. The user IDs can be added or removed using which of the following fixed roles?,b,a) db_sysadmin,b) db_accessadmin,c) db_securityadmin,d) db_setupadmin
+31,"32. The traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of ______________ type of ‘database’ management system.",d,a) Object-oriented database management system,b) Relational database management system,c) Network database management system,d) Hierarchical database management system
+32,"33. After groups have been established, SQL applies predicates in the ___________ clause, allowing aggregate functions to be used.", d,a) Where,b) Having,c) Group by,d) With
+33,34. Which of the following is not the utility of DBMS?,a,i) Backup          ii) Loading            iii) Process Organization      iv) File organization,"a) i, ii, and iv only","b) i, ii and iii only","c) i, iii and iv only"
+34,35. What does a foreign key combined with a primary key create?, a,a) Network model between the tables that connect them,b) Parent-Child relationship between the tables that connects them,c) One to many relationship between the tables that connects them,d) All of the mentioned
+35,36. Which of the following is correct according to the technology deployed by DBMS?,c,a) Pointers are used to maintain transactional integrity and consistency,b) Cursors are used to maintain transactional integrity and consistency,c) Locks are used to maintain transactional integrity and consistency,d) Triggers are used to maintain transactional integrity and consistency
+36,37. Which of the following is correct regarding the file produced by a spreadsheet?, a,a) can be used as it is by the DBMS,b) stored on disk in an ASCII text format,c) all of the mentioned,d) none of the mentioned
+38,39. ______ resembles Create view., a,a) Create table . . . as,b) Create view as,c) Create table . . .like,d) With data
+39,40. The query specifying the SQL view is said to be updatable if it meets which of the following conditions?, d,"a) select clause contains relation attribute names but not have expressions, aggregates, or distinct specification",b) from clause has 1 relation,c) query does not have group by or having clause,d) All of the mentioned
+40,41. When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?,c,a) Find the groups that make up the subtotal in a row,b) Create group-wise grand totals for the groups indicated in a GROUP BY clause,"c) Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",d) To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions
+41,42. Which of the following is the best way to represent the attributes in a large db?,b,a) Dot representation,b) Concatenation,c) Relational-and,d) All of the mentioned
+42,"43. Which of the following is the subset of SQL commands used to manipulate Oracle Structures, including tables?",d,a) Data Described Language,b) Data Retrieval Language,c) Data Manipulation Language,d) Data Definition Language
+43,44. Which of the following functions construct histograms and use buckets for ranking?, a,a) Ntil(),b) Newtil(),c) Rank(),d) All of the mentioned
+44,"45. __________ command is used in SQL to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction.",c,a) CREATE CLUSTER,b) CREATE PACKAGE,c) CREATE SCHEMA,d) All of the mentioned
+45,46. Which of the following key is required in to handle the data when the encryption is applied to the data so that the unauthorised user cannot access the data?,d,a) Primary key,b) Authorised key,c) Encryption key,d) Decryption key
+46,47. Which of the following is known as the process of viewing cross-tab with a fixed value of one attribute?, c,a) Dicing,b) Pivoting,c) Slicing,d) Both Pivoting and Dicing
+47,48. For designing a normal RDBMS which of the following normal form is considered adequate?,b,a) 4NF,b) 3NF,c) 2NF,d) 5NF
+48,49. Which of the following is popular for applications such as storage of log files in a database management system since it offers the best write performance?,b,a) RAID level 0,b) RAID level 1,c) RAID level 2,d) RAID level 3
+49,50. Which of the following represents a query in the tuple relational calculus?, b,a) { }{P(t) | t },b) {t | P(t)},c) t | P() | t,d) All of the mentioned
+50,51. The oldest DB model is _______________,a,a) Network,b) Physical,c) Hierarchical,d) Relational
+52,53. Which of the following establishes a top-to-bottom relationship among the items?,c,a) Relational schema,b) Network schema,c) Hierarchical schema,d) All of the mentioned
+53,54. A major goal of the db system is to minimize the number of block transfers between the disk and memory. Which of the following helps in achieving this goal?,d,a) Secondary storage,b) Storage,c) Catalog,d) Buffer
+54,55. What happens if a piece of data is stored in two places in the db?,a,a) Storage space is wasted & Changing the data in one spot will cause data inconsistency,b) In can be more easily accessed,c) Changing the data in one spot will cause data inconsistency,d) Storage space is wasted
+55,"56. The logical design, and the snapshot of the data at a given instant in time is known as?",d,a) Instance & Relation,b) Relation & Schema,c) Domain & Schema,d) Schema & Instance
