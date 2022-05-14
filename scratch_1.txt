@@ -1,0 +1,8 @@
+urls=>
+https://www.sanfoundry.com/operating-system-questions-answers/
+https://www.sanfoundry.com/1000-database-management-system-questions-answers/
+https://www.sanfoundry.com/microprocessors-questions-answers/
+https://www.sanfoundry.com/1000-unix-questions-answers/
+https://www.sanfoundry.com/1000-computer-graphics-questions-answers/
+https://www.sanfoundry.com/1000-object-oriented-programming-oops-questions-answers/
+https://www.sanfoundry.com/1000-computer-organization-architecture-questions-answers/
